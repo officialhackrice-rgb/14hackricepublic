@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* @font-face {
+  font-family: "start2P";
+  src: url("/assets/PressStart2P-Regular.ttf") format("truetype");
+} */
+
+@font-face {
+  font-family: "Formula1 Regular";
+  src: url("/public/assets/Formula1-Regular_web_0.ttf") format("truetype");
+}
+body {
+  margin-bottom: 30px;
+  background-color: #003244;
+  /* background-color: #172835; */
+  /* font-family: "Formula1-Regular", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'start2P',
+    sans-serif; */
+  
+  font-family: 'Formula1 Regular', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+  font-family: 'Formula1 Regular', sans-serif;
+}
+
+.glitch {
+  position: relative;
+  color: white;
+}
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+}
+.glitch::before {
+  animation: glitchTop 1s infinite linear;
+  color: #ff3030;
+  z-index: -1;
+}
+.glitch::after {
+  animation: glitchBottom 1s infinite linear;
+  color: #bd6ff8;
+  z-index: -2;
+}
+@keyframes glitchTop {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-2px, -2px); }
+  40% { transform: translate(-4px, 2px); }
+  60% { transform: translate(4px, 2px); }
+  80% { transform: translate(2px, -4px); }
+  100% { transform: translate(0, 0); }
+}
+@keyframes glitchBottom {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(2px, 2px); }
+  40% { transform: translate(4px, -2px); }
+  60% { transform: translate(-4px, -2px); }
+  80% { transform: translate(-2px, 4px); }
+  100% { transform: translate(0, 0); }
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.race-track-border {
+  position: absolute;
+  top: 0;         
+  left: 20px;       
+  right: 15px;        
+  /* bottom: 100px;        */
+  border-left: 6px dashed rgba(255, 255, 255, 0.3);   /* transparent white */
+  border-right: 6px dashed rgba(255, 255, 255, 0.3);
+  border-bottom: none;
+  border-top: none;    /* NO top border */
+  border-radius: 0 0 20px 20px; /* rounded corners only at bottom */
+  box-sizing: border-box;
+  pointer-events: none;
+
+  z-index: 0;  /* Put behind images (which usually default to z-index:auto or higher) */
+  
+  animation: dashmove 2s linear infinite;
+}
+
