@@ -279,15 +279,15 @@ export default function App(){
           <button className="relative text-center text-xl text-yellow-300/85 md:text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-12 w-40 md:h-16 md:w-52">Saturday 9/20</button>
             <button className="hover:scale-110 text-white text-left rounded-lg mt-10 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Workshop 1</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Google Cloud Workshop</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">10:30 AM </h2>
-              </div> TBD :D
+              </div> Learn more about using Google Cloud and Gemini!
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Activity 1</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Typing Tournament</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">11:30 AM </h2>
-              </div> TBD :D
+              </div> Monkeytype.
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
@@ -297,19 +297,19 @@ export default function App(){
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Workshop 2</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">MD Anderson IDSO Workshop</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">1:30 PM </h2>
               </div> TBD :D
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Activity 2</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">MLH Workshop</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">3:00 PM </h2>
               </div> TBD :D
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Workshop 3</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Persona Workshop</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">4:30 PM </h2>
               </div> TBD :D
             </button>
@@ -321,9 +321,9 @@ export default function App(){
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Late Night Event</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Late Night Ice Cream</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">11:00 PM </h2>
-              </div> TBD :D
+              </div> Take a break from hacking and come eat ice cream with us!
             </button> 
           </div>
           {/* -------------- SUNDAY --------------- */}
