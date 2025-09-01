@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.0d063f13.css",
-    "main.js": "/static/js/main.dd9767cf.js",
+    "main.js": "/static/js/main.a59966cf.js",
     "static/js/453.d4d160c9.chunk.js": "/static/js/453.d4d160c9.chunk.js",
     "static/media/Formula1-Regular_web_0.ttf": "/static/media/Formula1-Regular_web_0.a10812e5dfa71f8496d3.ttf",
     "static/media/NORD_NordVPN_logo.png": "/static/media/NORD_NordVPN_logo.16549b3b745c848e37f8.png",
     "index.html": "/index.html",
     "main.0d063f13.css.map": "/static/css/main.0d063f13.css.map",
-    "main.dd9767cf.js.map": "/static/js/main.dd9767cf.js.map",
+    "main.a59966cf.js.map": "/static/js/main.a59966cf.js.map",
     "453.d4d160c9.chunk.js.map": "/static/js/453.d4d160c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d063f13.css",
-    "static/js/main.dd9767cf.js"
+    "static/js/main.a59966cf.js"
   ]
 }
