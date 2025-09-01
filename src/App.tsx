@@ -264,6 +264,12 @@ export default function App(){
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Identifying A Problem You Care About</h1>
+                <h2 className="ml-3 font-semibold text-right text-lg">8:30 PM </h2>
+              </div> Narrow down your hackathon project idea based on a specific track!
+            </button> 
+            <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+              <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Commure Workshop</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">9:30 PM </h2>
               </div> Come do a workshop with Commure representatives.
@@ -278,6 +284,18 @@ export default function App(){
           {/* -------------- SATURDAY --------------- */}
           <div className="flex flex-col items-center rounded-lg mt-12 lg:mt-0">
           <button className="relative text-center text-xl text-yellow-300/85 md:text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-12 w-40 md:h-16 md:w-52">Saturday 9/20</button>
+            <button className="hover:scale-110 text-white text-left rounded-lg mt-10 md:p-3 w-full">
+              <div className="flex justify-between">
+                <h1 className="mb-1 font-semibold text-base md:text-lg">API Workshop</h1>
+                <h2 className="ml-3 font-semibold text-right text-lg">9:30 AM </h2>
+              </div> Introduction to APIs!
+            </button> 
+            <button className="hover:scale-110 text-white text-left rounded-lg mt-10 md:p-3 w-full">
+              <div className="flex justify-between">
+                <h1 className="mb-1 font-semibold text-base md:text-lg">AI Workshop</h1>
+                <h2 className="ml-3 font-semibold text-right text-lg">9:30 AM </h2>
+              </div> Using AI tools for coding.
+            </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-10 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Google Cloud Workshop</h1>
@@ -320,6 +338,12 @@ export default function App(){
                 <h2 className="ml-3 font-semibold text-right text-lg">7:30 PM </h2>
               </div> Dinner time!
             </button> 
+            <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+              <div className="flex justify-between">
+                <h1 className="mb-1 font-semibold text-base md:text-lg">LinkedIn & Resume Workshop</h1>
+                <h2 className="ml-3 font-semibold text-right text-lg">8:30 PM </h2>
+              </div> Develop your career.
+            </button>
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Late Night Ice Cream Bar</h1>
