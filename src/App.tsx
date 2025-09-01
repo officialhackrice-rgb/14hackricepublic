@@ -3,6 +3,7 @@ import './index.css';
 import NORDsponsor1 from './NORD_NordPass_logo.png';
 import NORDsponsor2 from './NORD_NordVPN_logo.png';
 import RaceTrackBorder from './Mouse';
+import HeadshotsSection from "./HeadshotsSection";
 
 
 interface FAQItem {
@@ -628,11 +629,13 @@ export default function App(){
           </ul>
       </div>
 
+          <HeadshotsSection />
     <div>
-      <h1 className="glitch text-white text-4xl md:text-4xl font-bold text-center mt-10" data-text="join us">
-        join us...
+      <h1 className="glitch text-white text-4xl md:text-4xl font-bold text-center mt-10" data-text="sign up sign up sign up">
+        sign up sign up sign up...
       </h1>
     </div>
+
        {/* --------------- COPYRIGHT --------------- */}
        <h1 className="text-center text-white mt-20">© 2025 HackRice. All Rights Reserved.
        </h1>
