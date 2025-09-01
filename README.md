@@ -1,3 +1,18 @@
+
+This repository is based off of the HackRice 14 codebase. It is deployed using Github Pages and the domain (hackrice.com) is purchased and managed over Namecheap. This repo was previously deployed using Vercel, and youc an feel free to pursue that again next year (we had some issues this year).
+
+
+# Deployment Instructions
+
+Install gh-pages if you haven't already:
+`npm install gh-pages --save-dev`
+
+After you push your changes, you can build and deploy with:
+`npm run deploy`
+
+Make sure when you go from Repo -> Settings -> Pages, your source is set to `gh-pages` and the folder is at `/root`.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
