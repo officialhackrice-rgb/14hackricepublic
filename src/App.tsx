@@ -374,6 +374,12 @@ export default function App(){
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Lunch</h1>
+                <h2 className="ml-3 font-semibold text-right text-lg">12:00 PM </h2>
+              </div> Last one.
+            </button> 
+            <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+              <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Top 5 Teams Present</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">2:00 PM </h2>
               </div> We'll announce the top 5 finalists and invite them to present live in front of our judges!
@@ -561,6 +567,11 @@ export default function App(){
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <a href="https://mastra.ai/" target="_blank"><img src="/assets/sponsors/mastra.png" alt="mathworks" className="w-48 h-auto"/></a>
+              </div>
+            </div>
+            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <a href="https://www.purebuttons.com/" target="_blank"><img src="/assets/sponsors/pure-buttons.png" alt="mathworks" className="w-48 h-auto"/></a>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
