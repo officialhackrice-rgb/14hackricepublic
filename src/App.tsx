@@ -278,7 +278,7 @@ export default function App(){
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Late Night Event and Cookies</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">10:30 PM </h2>
-              </div> Musical chairs perchance...
+              </div> Vroom vroom...
             </button> 
           </div>
           {/* -------------- SATURDAY --------------- */}
@@ -286,20 +286,14 @@ export default function App(){
           <button className="relative text-center text-xl text-yellow-300/85 md:text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-12 w-40 md:h-16 md:w-52">Saturday 9/20</button>
             <button className="hover:scale-110 text-white text-left rounded-lg mt-10 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">API Workshop</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Warp Workshop</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">9:30 AM </h2>
-              </div> Introduction to APIs!
+              </div> Shoutout to Advait!
             </button> 
-            <button className="hover:scale-110 text-white text-left rounded-lg mt-10 md:p-3 w-full">
-              <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">AI Workshop</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">9:30 AM </h2>
-              </div> Using AI tools for coding.
-            </button> 
-            <button className="hover:scale-110 text-white text-left rounded-lg mt-10 md:p-3 w-full">
+            <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Google Cloud Workshop</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">10:30 AM </h2>
+                <h2 className="ml-3 font-semibold text-right text-lg">11:30 AM </h2>
               </div> Learn more about using Google Cloud and Gemini!
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
@@ -322,16 +316,22 @@ export default function App(){
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">MLH Workshop</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">3:00 PM </h2>
-              </div> Come do a workshop with MLH representatives.
-            </button> 
-            <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
-              <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Persona Workshop</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">4:30 PM </h2>
+                <h2 className="ml-3 font-semibold text-right text-lg">2:45 PM </h2>
               </div> Come do a workshop with Persona representatives.
             </button>
+            <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+              <div className="flex justify-between">
+                <h1 className="mb-1 font-semibold text-base md:text-lg">TwelveLabs Workshop</h1>
+                <h2 className="ml-3 font-semibold text-right text-lg">4:00 PM </h2>
+              </div> Come do a workshop with TwelveLabs representatives.
+            </button>
+            <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+              <div className="flex justify-between">
+                <h1 className="mb-1 font-semibold text-base md:text-lg">MLH Workshop</h1>
+                <h2 className="ml-3 font-semibold text-right text-lg">5:15 PM </h2>
+              </div> Come do a workshop with MLH representatives.
+            </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Dinner</h1>
@@ -489,11 +489,11 @@ export default function App(){
                 <img src="/assets/sponsors/mda-idso-logo.png" alt="capitalone" className="w-40 h-auto"/>
               </div>
             </div>
-             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
+             {/* <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/terabox-logo.png" alt="capitalone" className="w-40 h-auto"/>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       {/* --------------- SUPPORTING (SILVER & BRONZE) --------------- */}
@@ -532,11 +532,11 @@ export default function App(){
                 <img src="/assets/sponsors/REA-Logo_Formal.png" alt="rea" className="w-48 h-auto"/>
               </div>
             </div>
-            <div className = "relative items-center justify-center flex w-56 h-56 mx-auto">
+            {/* <div className = "relative items-center justify-center flex w-56 h-56 mx-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/codepath.png" alt="rea" className="w-48 h-auto"/>
               </div>
-            </div>
+            </div> */}
             <div className = "relative items-center justify-center flex w-56 h-56 mx-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/twelvelabs.png" alt="rea" className="w-48 h-auto"/>
