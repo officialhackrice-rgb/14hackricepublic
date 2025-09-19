@@ -258,13 +258,13 @@ export default function App(){
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">First Timer's Workshop</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">First Timer's Workshop @ Farnsworth</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">8:30 PM </h2>
               </div> Pick up and strengthen basic skills that will help you with your project!
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Identifying A Problem You Care About</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Identifying A Problem You Care About @ Miner Lounge</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">8:30 PM </h2>
               </div> Narrow down your hackathon project idea based on a specific track!
             </button> 
@@ -293,15 +293,15 @@ export default function App(){
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Google Cloud Workshop</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">11:30 AM </h2>
+                <h2 className="ml-3 font-semibold text-right text-lg">10:30 AM </h2>
               </div> Learn more about using Google Cloud and Gemini!
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Typing Tournament</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">11:30 AM </h2>
-              </div> Monkeytype.
-            </button> 
+                <h1 className="mb-1 font-semibold text-base md:text-lg">TwelveLabs Workshop</h1>
+                <h2 className="ml-3 font-semibold text-right text-lg">11:45 AM </h2>
+              </div> Come do a workshop with TwelveLabs representatives.
+            </button>
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Lunch</h1>
@@ -322,15 +322,15 @@ export default function App(){
             </button>
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">TwelveLabs Workshop</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">MLH Workshop</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">4:00 PM </h2>
-              </div> Come do a workshop with TwelveLabs representatives.
-            </button>
+              </div> Come do a workshop with MLH representatives.
+            </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">MLH Workshop</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Typing Tournament</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">5:15 PM </h2>
-              </div> Come do a workshop with MLH representatives.
+              </div> Monkeytype.
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
