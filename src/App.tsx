@@ -311,13 +311,13 @@ export default function App(){
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">MD Anderson IDSO Workshop</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">1:30 PM </h2>
+                <h2 className="ml-3 font-semibold text-right text-lg">1:45 PM </h2>
               </div> Come do a workshop with MD Anderson IDSO representatives.
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Persona Workshop</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">2:45 PM </h2>
+                <h2 className="ml-3 font-semibold text-right text-lg">3:00 PM </h2>
               </div> Come do a workshop with Persona representatives.
             </button>
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
