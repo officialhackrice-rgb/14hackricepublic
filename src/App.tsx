@@ -274,12 +274,12 @@ export default function App(){
                 <h2 className="ml-3 font-semibold text-right text-lg">9:30 PM </h2>
               </div> Come do a workshop with Commure representatives.
             </button> 
-            <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+            {/* <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Late Night Event and Cookies</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">10:30 PM </h2>
               </div> Vroom vroom...
-            </button> 
+            </button>  */}
           </div>
           {/* -------------- SATURDAY --------------- */}
           <div className="flex flex-col items-center rounded-lg mt-12 lg:mt-0">
@@ -305,7 +305,7 @@ export default function App(){
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Lunch</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">12:30 PM </h2>
+                <h2 className="ml-3 font-semibold text-right text-lg">12:45 PM </h2>
               </div> Lunch time!
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
@@ -338,12 +338,6 @@ export default function App(){
                 <h2 className="ml-3 font-semibold text-right text-lg">7:30 PM </h2>
               </div> Dinner time!
             </button> 
-            <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
-              <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">LinkedIn & Resume Workshop</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">8:30 PM </h2>
-              </div> Develop your career.
-            </button>
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Late Night Ice Cream Bar</h1>

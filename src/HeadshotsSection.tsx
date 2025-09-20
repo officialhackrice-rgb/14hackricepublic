@@ -14,7 +14,6 @@ const headshots: Headshot[] = [
   { name: "Carolyn Lu", role: "Tracks & Workshops", image: "/assets/hr15-headshots/carolyn-lu.JPG" },
   { name: "Jack Shen", role: "Tracks & Workshops", image: "/assets/hr15-headshots/jack-shen.jpg" },
   { name: "Luciano Perez", role: "Publicity & Registration", image: "/assets/hr15-headshots/luciano-perez.jpg" },
-  { name: "Lakshanyaa Rajkumar", role: "Publicity & Registration", image: "/assets/hr15-headshots/lakshanyaa.jpg" },
   { name: "Andrew Chu", role: "Industry Outreach", image: "/assets/hr15-headshots/andrew-chu.jpg" },
   { name: "John Tian", role: "Industry Outreach", image: "/assets/hr15-headshots/john-tian.png" },
   { name: "Lexi Xu", role: "Industry Outreach", image: "/assets/hr15-headshots/lexi-xu.jpg" },
