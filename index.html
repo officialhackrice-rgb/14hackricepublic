@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackRice 16 | Rice University</title>
+    <link rel="icon" type="image/png" href="./images/Hlogo.png">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+</head>
+<body class="bg-[#f9f8f3] text-gray-900 font-sans selection:bg-brand-primary selection:text-white">
+
+    <!-- ==================== -->
+    <!-- MLH BADGE -->
+    <!-- ==================== -->
+    <a id="mlh-trust-badge" 
+    class="block fixed top-0 right-4 md:right-8 w-16 sm:w-20 md:w-24 z-[100] transition transform hover:translate-y-1" 
+    href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2026-season&utm_content=white" 
+    target="_blank" 
+    rel="noopener noreferrer">
+        <img src="images/mlh-trust-badge-2026-red.svg" 
+            alt="Major League Hacking 2026 Hackathon Season" 
+            class="w-full h-auto">
+    </a>
+
+
+    <!-- ==================== -->
+    <!-- NAVIGATION BAR -->
+    <!-- ==================== -->
+    <nav class="fixed top-0 left-0 w-full bg-brand-surface/80 backdrop-blur-md z-50 border-b border-[#c3922e]/40">
+        <div class="max-w-6xl mx-auto px-6 md:pr-28 h-16 flex items-center justify-between">
+            
+            <div class="flex items-center gap-2 font-bold text-xl tracking-wider text-brand-primary">
+                <img src="images/Hlogo.png" alt="" class="w-7 h-7 object-contain">
+                <span>HACKRICE16</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="text-gray-600 hover:text-brand-primary transition">About</a>
+                <a href="#schedule" class="text-gray-600 hover:text-brand-primary transition">Schedule</a>
+                <a href="#tracks" class="text-gray-600 hover:text-brand-primary transition">Tracks</a>
+                <a href="#sponsors" class="text-gray-600 hover:text-brand-primary transition">Sponsors</a>
+                <a href="#faq" class="text-gray-600 hover:text-brand-primary transition">FAQ</a>
+            </div>
+            
+            <a href="https://linktr.ee/hackrice" class="bg-[#3a4985] hover:bg-[#2f3a66] text-white px-4 py-2 rounded-full text-sm font-semibold transition shadow-lg">Apply Now</a>
+        </div>
+    </nav>
+
+
+    <!-- ==================== -->
+    <!-- MAIN CARD -->
+    <!-- ==================== -->
+    <div class="relative w-full overflow-hidden bg-[#f9f8f3]">
+
+        <!-- CUSTOM GOLDEN CORNER TRELLISES -->
+        
+        <!-- Top Left Trellis Image -->
+        <div class="absolute top-24 left-4 w-32 h-32 md:w-48 md:h-48 pointer-events-none opacity-90">
+            <img src="./images/hr-trellis-left.png" alt="" class="w-full h-full object-contain">
+        </div>
+
+        <!-- Top Right Trellis Image -->
+        <div class="absolute top-24 right-4 w-32 h-32 md:w-48 md:h-48 pointer-events-none opacity-90">
+            <img src="./images/hr-trellis-right.png" alt="" class="w-full h-full object-contain">
+        </div>
+
+        <!-- Bottom Left Trellis Image -->
+        <div class="absolute bottom-6 left-4 w-32 h-32 md:w-48 md:h-48 pointer-events-none opacity-90">
+            <img src="./images/hr-trellis-left-bot.png" alt="" class="w-full h-full object-contain">
+        </div>
+
+        <!-- Bottom Right Trellis Image -->
+        <div class="absolute bottom-6 right-4 w-32 h-32 md:w-48 md:h-48 pointer-events-none opacity-90">
+            <img src="./images/hr-trellis-right-bot.png" alt="" class="w-full h-full object-contain">
+        </div>
+
+
+        <!-- MAIN HERO CONTENT  -->
+        <section class="pt-12 pb-8 px-6 text-center max-w-6xl mx-auto relative z-10">
+            
+            <header class="pt-16 pb-6 px-6 flex flex-col justify-center items-center text-center relative overflow-hidden">
+            
+                <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-brand-primary/5 rounded-full filter blur-3xl -z-10"></div>
+                
+                <span class="text-brand-primary font-bold tracking-widest text-xs uppercase bg-brand-primary/10 px-3 py-1 rounded-full mt-4 mb-1">
+                    Rice University's 16th Annual Hackathon
+                </span>
+
+                <!-- Centered Logo Stack -->
+                <div class="relative w-full max-w-5xl grid grid-cols-1 grid-rows-1 items-center justify-items-center mb-4 px-4">
+                    <img src="images/HackriceChips_TransparentBG.png" 
+                        alt="HackRice Chips" 
+                        class="col-start-1 row-start-1 w-full max-w-xl h-auto opacity-95 object-contain z-0 transform translate-y-2" />
+
+                    <img src="images/HackriceLetteringInkscape2.png" 
+                        alt="HackRice Lettering" 
+                        class="col-start-1 row-start-1 w-full max-w-3xl h-auto object-contain z-10" />
+                </div>
+
+                <p class="text-[#b4402a] text-xl md:text-2xl max-w-2xl mb-4 leading-relaxed font-bold">
+                    September 11th-13th 2026
+                </p>
+
+                <p class="text-gray-600 text-lg md:text-xl max-w-2xl mb-6 leading-relaxed">
+                    Join over 400 of the brightest minds in the nation for 36 hours of relentless creation, collaboration, and building. 
+                </p>
+
+                <!-- Countdown Deck -->
+                <div class="bg-brand-surface border border-gray-200 rounded-2xl p-6 mb-8 shadow-md max-w-md w-full">
+                    <div class="text-xs text-gray-500 uppercase tracking-widest mb-2 font-semibold">Shuffling the deck in</div>
+                    <div class="grid grid-cols-4 gap-4 text-center">
+                        <div><span id="days" class="text-2xl font-bold text-gray-900">00</span><p class="text-[10px] text-gray-500 uppercase">Days</p></div>
+                        <div><span id="hours" class="text-2xl font-bold text-gray-900">00</span><p class="text-[10px] text-gray-500 uppercase">Hours</p></div>
+                        <div><span id="mins" class="text-2xl font-bold text-gray-900">00</span><p class="text-[10px] text-gray-500 uppercase">Mins</p></div>
+                        <div><span id="secs" class="text-2xl font-bold text-gray-900">00</span><p class="text-[10px] text-gray-500 uppercase">Secs</p></div>
+                    </div>
+                </div>
+
+                <!-- Action Button Container -->
+                <div class="flex flex-col sm:flex-row gap-4 mb-2">
+                    <a href="https://linktr.ee/hackrice" target="_blank" rel="noopener noreferrer" class="bg-[#3a4985] hover:bg-[#2f3a66] text-white text-center font-bold px-8 py-4 rounded-xl transition shadow-xl">HackRice 16 Interest Form</a>
+                </div>
+
+            </header>
+
+        </section>
+
+    </div>
+
+    
+
+    <!-- ==================== -->
+    <!-- ABOUT SECTION -->
+    <!-- ==================== -->
+    <section id="about" class="py-20 border-t border-[#c3922e]/40 max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-12 items-start">
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">What is HackRice?</h2>
+                
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    HackRice is Rice University's annual hackathon. It brings together creators, developers, and designers together under one roof to develop & showcase their creative and entrepreneurial talents in an environment designed for collaboration. Teams of up to 4 form to attack real-world issues, building viable software or hardware solutions within a hyper-focused 36-hour sprint.
+                </p>
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    This is an excellent opportunity for students to build a network of creators, receive internship & job offers from world-class sponsors, and learn modern tools & systems.
+                </p>
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    We hope to see you there!
+                </p>
+            </div>
+            <div class="bg-brand-surface border border-gray-200 rounded-2xl p-8 space-y-6 shadow-sm">
+                <div>
+                    <h3 class="text-xs font-bold text-brand-primary uppercase tracking-wider mb-1">When</h3>
+                    <p class="text-lg font-semibold text-gray-900">September 11th-13th</p>
+                </div>
+                <div class="border-t border-gray-200 pt-4">
+                    <h3 class="text-xs font-bold text-brand-primary uppercase tracking-wider mb-1">Where</h3>
+                    <p class="text-lg font-semibold text-gray-900">Rice Student Center @ Rice University</p>
+                </div>
+                <div class="border-t border-gray-200 pt-4">
+                    <h3 class="text-xs font-bold text-brand-primary uppercase tracking-wider mb-1">Who</h3>
+                    <p class="text-lg font-semibold text-gray-900">400+ undergraduate builders & innovators</p>
+                </div>
+                <div class="border-t border-gray-200 pt-4">
+                    <h3 class="text-xs font-bold text-brand-primary uppercase tracking-wider mb-1">Admission</h3>
+                    <p class="text-lg font-semibold text-gray-900">100% free, meals & swag included</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== -->
+    <!-- SCHEDULE SECTION -->
+    <!-- ==================== -->
+    <section id="schedule" class="relative py-24 px-6 max-w-6xl mx-auto border-t border-[#c3922e]/40">
+        
+        <!-- SOLID PNG MARGIN SUITS  -->
+
+        <!-- Left Side Track -->
+        <div class="hidden xl:grid grid-cols-1 gap-10 absolute left-2 top-12 bottom-12 w-8 justify-items-center pointer-events-none z-20 overflow-hidden">
+            <!-- First Cycle -->
+            <img src="images/hr-suit-club.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-diamond.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-spade.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-heart.png" alt="" class="w-7 h-7 object-contain">
+            <!-- Second Cycle -->
+            <img src="images/hr-suit-club.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-diamond.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-spade.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-heart.png" alt="" class="w-7 h-7 object-contain">
+            <!-- Third Cycle -->
+            <img src="images/hr-suit-club.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-diamond.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-spade.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-heart.png" alt="" class="w-7 h-7 object-contain">
+        </div>
+
+        <!-- Right Side Track -->
+        <div class="hidden xl:grid grid-cols-1 gap-10 absolute right-2 top-12 bottom-12 w-8 justify-items-center pointer-events-none z-20 overflow-hidden">
+            <!-- First Cycle -->
+            <img src="images/hr-suit-heart.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-spade.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-diamond.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-club.png" alt="" class="w-7 h-7 object-contain">
+            <!-- Second Cycle -->
+            <img src="images/hr-suit-heart.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-spade.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-diamond.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-club.png" alt="" class="w-7 h-7 object-contain">
+            <!-- Third Cycle -->
+            <img src="images/hr-suit-heart.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-spade.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-diamond.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-club.png" alt="" class="w-7 h-7 object-contain">
+        </div>
+
+
+        <!-- MAIN CONTENT BLOCK  -->
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+                Event Schedule
+            </h2>
+            <div class="h-1 w-20 bg-[#b4402a] mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <div class="bg-brand-surface border border-gray-200 rounded-3xl p-8 md:p-12 shadow-sm max-w-3xl mx-auto text-center relative overflow-hidden">
+            <div class="absolute right-4 bottom-4 text-gray-100/40 text-9xl font-bold select-none pointer-events-none -z-10">♦</div>
+            
+            <div class="w-16 h-16 bg-[#3a4985]/10 rounded-full flex items-center justify-center text-2xl mb-6 mx-auto">🗓️</div>
+            
+            <h3 class="text-xl font-bold text-gray-900 mb-3">Shuffling the Timetable</h3>
+            <p class="text-gray-600 max-w-md mx-auto leading-relaxed mb-6">
+                We are fine-tuning the itinerary to ensure you get the absolute most out of your 36 hours. The full breakdown of workshops, meals, and speaker panels will be dealt out soon!
+            </p>
+            
+            <span class="inline-flex items-center gap-2 bg-[#b4402a]/10 text-[#b4402a] text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full border border-[#b4402a]/20 animate-pulse">
+                📋 Full Schedule Pending
+            </span>
+        </div>
+    </section>
+
+
+    <!-- ==================== -->
+    <!-- TRACKS SECTION -->
+    <!-- ==================== -->
+    <section id="tracks" class="py-20 border-t max-w-6xl mx-auto border-[#c3922e]/40">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+                    Competition Tracks
+                </h2>
+                <div class="h-1 w-20 bg-[#b4402a] mx-auto mt-4 rounded-full"></div>
+                <p class="text-gray-500 mt-4 max-w-xl mx-auto text-sm">
+                    Tailor your build toward a specific problem domain to qualify for category-specific prize pools.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- 1. HEALTHCARE (Hearts - #b4402a Red) -->
+                <div class="relative bg-brand-surface border border-gray-200 p-6 pt-14 pb-14 rounded-2xl transition-all duration-300 shadow-sm flex flex-col justify-center overflow-hidden group hover:-translate-y-2 hover:shadow-xl hover:border-[#b4402a]/50">
+                    
+                    <!-- 🃏 PREMIUM INCOMPLETE INNER BORDER -->
+                    <div class="absolute inset-2.5 border border-[#b4402a]/30 rounded-xl pointer-events-none group-hover:border-[#b4402a]/60 transition-colors z-0"></div>
+                    <!-- Corner Masks (matches 'bg-brand-surface' to hide the frame's corners) -->
+                    <div class="absolute top-0 left-0 w-9 h-9 bg-brand-surface z-10"></div>
+                    <div class="absolute bottom-0 right-0 w-9 h-9 bg-brand-surface z-10"></div>
+                    
+                    <!-- Top-Left Card Indicator -->
+                    <div class="absolute top-4 left-4 flex flex-col items-center leading-none text-sm font-black text-[#b4402a] z-20">
+                        <span>A</span>
+                        <span class="text-base mt-0.5">♥</span>
+                    </div>
+                    <!-- Bottom-Right Card Indicator (Flipped) -->
+                    <div class="absolute bottom-4 right-4 flex flex-col items-center leading-none text-sm font-black text-[#b4402a] rotate-180 z-20">
+                        <span>A</span>
+                        <span class="text-base mt-0.5">♥</span>
+                    </div>
+
+                    <div class="text-center relative z-20">
+                        <h3 class="text-lg font-bold text-gray-900 mb-3">Healthcare</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">Innovations in patient outcomes, biomedical tracking, and accessible wellness technologies to promote healthspan.</p>
+                    </div>
+                </div>
+
+                <!-- 2. GAMES & GAMIFICATION (Spades - #3a4985 Blue) -->
+                <div class="relative bg-brand-surface border border-gray-200 p-6 pt-14 pb-14 rounded-2xl transition-all duration-300 shadow-sm flex flex-col justify-center overflow-hidden group hover:-translate-y-2 hover:shadow-xl hover:border-[#3a4985]/50">
+                    
+                    <!-- 🃏 PREMIUM INCOMPLETE INNER BORDER -->
+                    <div class="absolute inset-2.5 border border-[#3a4985]/20 rounded-xl pointer-events-none group-hover:border-[#3a4985]/50 transition-colors z-0"></div>
+                    <div class="absolute top-0 left-0 w-9 h-9 bg-brand-surface z-10"></div>
+                    <div class="absolute bottom-0 right-0 w-9 h-9 bg-brand-surface z-10"></div>
+
+                    <!-- Top-Left Card Indicator -->
+                    <div class="absolute top-4 left-4 flex flex-col items-center leading-none text-sm font-black text-[#3a4985] z-20">
+                        <span>K</span>
+                        <span class="text-base mt-0.5">♠</span>
+                    </div>
+                    <!-- Bottom-Right Card Indicator (Flipped) -->
+                    <div class="absolute bottom-4 right-4 flex flex-col items-center leading-none text-sm font-black text-[#3a4985] rotate-180 z-20">
+                        <span>K</span>
+                        <span class="text-base mt-0.5">♠</span>
+                    </div>
+
+                    <div class="text-center relative z-20">
+                        <h3 class="text-lg font-bold text-gray-900 mb-3">Games & Gamification</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">Build immersive worlds, interactive mechanics, or apply game design theory to turn everyday challenges into high-stakes engagement.</p>
+                    </div>
+                </div>
+
+                <!-- 3. FINANCE (Diamonds - #b4402a Red) -->
+                <div class="relative bg-brand-surface border border-gray-200 p-6 pt-14 pb-14 rounded-2xl transition-all duration-300 shadow-sm flex flex-col justify-center overflow-hidden group hover:-translate-y-2 hover:shadow-xl hover:border-[#b4402a]/50">
+                    
+                    <!-- 🃏 PREMIUM INCOMPLETE INNER BORDER -->
+                    <div class="absolute inset-2.5 border border-[#b4402a]/30 rounded-xl pointer-events-none group-hover:border-[#b4402a]/60 transition-colors z-0"></div>
+                    <div class="absolute top-0 left-0 w-9 h-9 bg-brand-surface z-10"></div>
+                    <div class="absolute bottom-0 right-0 w-9 h-9 bg-brand-surface z-10"></div>
+
+                    <!-- Top-Left Card Indicator -->
+                    <div class="absolute top-4 left-4 flex flex-col items-center leading-none text-sm font-black text-[#b4402a] z-20">
+                        <span>Q</span>
+                        <span class="text-base mt-0.5">♦</span>
+                    </div>
+                    <!-- Bottom-Right Card Indicator (Flipped) -->
+                    <div class="absolute bottom-4 right-4 flex flex-col items-center leading-none text-sm font-black text-[#b4402a] rotate-180 z-20">
+                        <span>Q</span>
+                        <span class="text-base mt-0.5">♦</span>
+                    </div>
+
+                    <div class="text-center relative z-20">
+                        <h3 class="text-lg font-bold text-gray-900 mb-3">Finance</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">Exploring next-generation tooling, capital accessibility platforms, or small business aids for confidence & control.</p>
+                    </div>
+                </div>
+                
+                <!-- 4. WORK & PRODUCTIVITY (Clubs - #3a4985 Blue) -->
+                <div class="relative bg-brand-surface border border-gray-200 p-6 pt-14 pb-14 rounded-2xl transition-all duration-300 shadow-sm flex flex-col justify-center overflow-hidden group hover:-translate-y-2 hover:shadow-xl hover:border-[#3a4985]/50">
+                    
+                    <!-- 🃏 PREMIUM INCOMPLETE INNER BORDER -->
+                    <div class="absolute inset-2.5 border border-[#3a4985]/20 rounded-xl pointer-events-none group-hover:border-[#3a4985]/50 transition-colors z-0"></div>
+                    <div class="absolute top-0 left-0 w-9 h-9 bg-brand-surface z-10"></div>
+                    <div class="absolute bottom-0 right-0 w-9 h-9 bg-brand-surface z-10"></div>
+
+                    <!-- Top-Left Card Indicator -->
+                    <div class="absolute top-4 left-4 flex flex-col items-center leading-none text-sm font-black text-[#3a4985] z-20">
+                        <span>J</span>
+                        <span class="text-base mt-0.5">♣</span>
+                    </div>
+                    <!-- Bottom-Right Card Indicator (Flipped) -->
+                    <div class="absolute bottom-4 right-4 flex flex-col items-center leading-none text-sm font-black text-[#3a4985] rotate-180 z-20">
+                        <span>J</span>
+                        <span class="text-base mt-0.5">♣</span>
+                    </div>
+
+                    <div class="text-center relative z-20">
+                        <h3 class="text-lg font-bold text-gray-900 mb-3">Work & Productivity</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">Stack the deck in your favor by engineering smarter collaboration tools, slick automation platforms, and systems that optimize your daily grind.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+</section>
+
+
+    <!-- ==================== -->
+    <!-- SPONSORS SECTION -->
+    <!-- ==================== -->
+<section id="sponsors" class="relative py-24 px-6 max-w-6xl mx-auto border-t border-[#c3922e]/40">
+
+        <!-- CLEAN REPEATING CARD SUIT MARGINS -->
+
+        <!-- Left Side Track -->
+        <div class="hidden xl:grid grid-cols-1 gap-10 absolute left-2 top-12 bottom-12 w-8 justify-items-center pointer-events-none z-20 overflow-hidden">
+            <!-- First Cycle -->
+            <img src="images/hr-suit-club.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-diamond.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-spade.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-heart.png" alt="" class="w-7 h-7 object-contain">
+            <!-- Second Cycle -->
+            <img src="images/hr-suit-club.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-diamond.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-spade.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-heart.png" alt="" class="w-7 h-7 object-contain">
+            <!-- Third Cycle -->
+            <img src="images/hr-suit-club.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-diamond.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-spade.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-heart.png" alt="" class="w-7 h-7 object-contain">
+        </div>
+
+        <!-- Right Side Track -->
+        <div class="hidden xl:grid grid-cols-1 gap-10 absolute right-2 top-12 bottom-12 w-8 justify-items-center pointer-events-none z-20 overflow-hidden">
+            <!-- First Cycle -->
+            <img src="images/hr-suit-heart.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-spade.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-diamond.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-club.png" alt="" class="w-7 h-7 object-contain">
+            <!-- Second Cycle -->
+            <img src="images/hr-suit-heart.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-spade.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-diamond.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-club.png" alt="" class="w-7 h-7 object-contain">
+            <!-- Third Cycle -->
+            <img src="images/hr-suit-heart.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-spade.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-diamond.png" alt="" class="w-7 h-7 object-contain">
+            <img src="images/hr-suit-club.png" alt="" class="w-7 h-7 object-contain">
+        </div>
+
+
+        <!-- MAIN CONTENT BLOCK -->
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+                Sponsors
+            </h2>
+            <div class="h-1 w-20 bg-[#b4402a] mx-auto mt-4 rounded-full"></div>
+            <p class="text-gray-500 mt-4 max-w-xl mx-auto text-sm">
+                Supporting the next generation of innovators, builders, and card-sharks.
+            </p>
+        </div>
+
+        <div class="bg-brand-surface/60 border border-dashed border-gray-300 rounded-3xl p-12 text-center max-w-4xl mx-auto">
+            <div class="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center text-xl mb-4 mx-auto">🤝</div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">Backing the Stakes</h3>
+            <p class="text-gray-500 text-sm max-w-md mx-auto mb-8">
+                Our 2026 sponsor lineup is currently being finalized. Want to get your company in front of 400+ top-tier developers, designers, and engineers?
+            </p>
+
+            <a href="#prospectus-link" class="inline-flex items-center gap-2 bg-[#3a4985] hover:bg-[#2f3a66] text-white text-sm font-bold px-6 py-3 rounded-xl transition shadow-md">
+                💼 View Sponsorship Prospectus
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ==================== -->
+    <!-- FAQ SECTION -->
+    <!-- ==================== -->
+    <section id="faq" class="py-24 px-6 max-w-6xl mx-auto border-t border-[#c3922e]/40">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+                Frequently Asked Questions
+            </h2>
+            <div class="h-1 w-20 bg-[#b4402a] mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <!-- FAQ Layout Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            
+            <!-- Q1: Timeline -->
+            <div class="bg-brand-surface border border-gray-200 p-6 rounded-2xl shadow-sm">
+                <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
+                    <span class="text-[#b4402a]">⏱️</span> How long is HackRice?
+                </h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    The event runs from Friday, September 11th through Sunday, September 13th, 2026. You’ll have a full, uninterrupted 36 hours of relentless creation, collaboration, and building.
+                </p>
+            </div>
+
+            <!-- Q2: Who can participate -->
+            <div class="bg-brand-surface border border-gray-200 p-6 rounded-2xl shadow-sm">
+                <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
+                    <span class="text-[#3a4985]">🃏</span> Who can participate?
+                </h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Any current undergraduate student over the age of 18 is eligible to apply to HackRice. Since we are an MLH member event, participants must also accept the <a href="https://mlh.io/code-of-conduct" target="_blank" rel="noopener noreferrer" class="text-[#3a4985] font-semibold hover:underline">MLH Code of Conduct</a>.
+                </p>
+            </div>
+
+            <!-- Q3: Attendance & Scale -->
+            <div class="bg-brand-surface border border-gray-200 p-6 rounded-2xl shadow-sm">
+                <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
+                    <span class="text-[#3a4985]">🌍</span> How many hackers attend, and where from?
+                </h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Last year, we hosted 400 bright minds from Rice & all over the world. This year, we’re raising the stakes and aiming to expand our table to welcome up to 800 hackers!
+                </p>
+            </div>
+
+            <!-- Q4: Acceptance Criteria -->
+            <div class="bg-brand-surface border border-gray-200 p-6 rounded-2xl shadow-sm">
+                <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
+                    <span class="text-[#b4402a]">🎟️</span> What are the acceptance criteria?
+                </h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    All Rice students are guaranteed acceptance. For Non-Rice students, we ask for some background information so that we can invite people who have demonstrated interest and skill. Above all else, we're looking for passion and excitement!
+                </p>
+            </div>
+
+            <!-- Q5: Team Sizes -->
+            <div class="bg-brand-surface border border-gray-200 p-6 rounded-2xl shadow-sm">
+                <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
+                    <span class="text-[#b4402a]">👥</span> How many hackers per team?
+                </h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Teams can range from 1 to 4 hackers. Whether you prefer running solo or assembling a full crew of four, you're perfectly clear to compete.
+                </p>
+            </div>
+
+            <!-- Q6: No Team -> Mixer -->
+            <div class="bg-brand-surface border border-gray-200 p-6 rounded-2xl shadow-sm">
+                <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
+                    <span class="text-[#3a4985]">🔄</span> What if I don't have a team beforehand?
+                </h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    You don't have to form a team before the event, or at all. At the start of the event, we will provide plenty of time to break out and form a new one if you choose to.
+                </p>
+            </div>
+
+            <!-- Q7: What to bring -->
+            <div class="bg-brand-surface border border-gray-200 p-6 rounded-2xl shadow-sm">
+                <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
+                    <span class="text-[#3a4985]">🎒</span> What do I need to bring?
+                </h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Please bring a student and legal ID so we can verify and register you on-site! You'll also need to bring a computer, whatever software you feel might be necessary for development. We also recommend that you bring power strips for convenience. Teammates are free to share equipment with each other.
+                </p>
+            </div>
+
+            <!-- Q8: Experience level -->
+            <div class="bg-brand-surface border border-gray-200 p-6 rounded-2xl shadow-sm">
+                <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
+                    <span class="text-[#b4402a]">🚀</span> What if I'm not very experienced?
+                </h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    We do our best to point people in the right direction and use tools and languages with a low barrier to entry. You will have access to our mentors and the HackRice team at all times! We will also be having workshops the week before the hackathon!
+                </p>
+            </div>
+
+            <!-- Q9: Alumni -->
+            <div class="bg-brand-surface border border-gray-200 p-6 rounded-2xl shadow-sm">
+                <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
+                    <span class="text-[#b4402a]">🎓</span> Can Rice alumni attend?
+                </h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Yes! Rice alumni are welcome to attend to build projects or mentor current students. Just note that teams featuring alumni submissions will not be eligible to take home official hackathon prizes.
+                </p>
+            </div>
+
+            <!-- Q10: Travel Stipends -->
+            <div class="bg-brand-surface border border-gray-200 p-6 rounded-2xl shadow-sm">
+                <h3 class="text-base font-bold text-gray-900 mb-2 flex items-center gap-2">
+                    <span class="text-[#3a4985]">💵</span> Do you offer travel stipends?
+                </h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    That depends on our funding! Make sure to keep an eye on our pages and check back closer to September to see the final status of travel reimbursements.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Help Sub-Banner -->
+        <div class="mt-16 text-center text-sm text-gray-500">
+            Still holding questions in your hand? Drop us a line anytime at 
+            <a href="mailto:hack@rice.edu" class="text-[#3a4985] font-semibold hover:underline">hack@rice.edu</a>.
+        </div>
+    </section>
+
+
+
+    <!-- ==================== -->
+    <!-- BIOS SECTION -->
+    <!-- ==================== -->
+    <section id="team" class="relative py-24 px-6 max-w-6xl mx-auto border-t border-[#c3922e]/40 bg-brand-dark/30 rounded-3xl overflow-hidden">
+
+        <!-- BACKGROUND WATERMARK LOGO -->
+        <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 md:w-[450px] md:h-[450px] pointer-events-none opacity-30 z-0">
+            <img src="./images/Hlogo.png" alt="" class="w-full h-full object-contain">
+        </div>
+        
+        <!-- CORNER TRELLISES -->
+
+        <!-- Top Left Trellis -->
+        <div class="absolute top-0 left-0 w-36 h-36 md:w-48 md:h-48 pointer-events-none opacity-90 z-10">
+            <img src="./images/hr-trellis-left.png" alt="" class="w-full h-full object-contain">
+        </div>
+
+        <!-- Top Right Trellis -->
+        <div class="absolute top-0 right-0 w-36 h-36 md:w-48 md:h-48 pointer-events-none opacity-90 z-10">
+            <img src="./images/hr-trellis-right.png" alt="" class="w-full h-full object-contain">
+        </div>
+
+        <!-- Bottom Left Trellis -->
+        <div class="absolute bottom-0 left-0 w-36 h-36 md:w-48 md:h-48 pointer-events-none opacity-90 z-10 rotate-180">
+            <img src="./images/hr-trellis-right.png" alt="" class="w-full h-full object-contain">
+        </div>
+
+        <!-- Bottom Right Trellis -->
+        <div class="absolute bottom-0 right-0 w-36 h-36 md:w-48 md:h-48 pointer-events-none opacity-90 z-10 rotate-180">
+            <img src="./images/hr-trellis-left.png" alt="" class="w-full h-full object-contain">
+        </div>
+
+        <!-- TEAM CONTENT LAYOUT -->
+        <div class="text-center mb-12 relative z-20">
+            <span class="text-md font-bold uppercase tracking-widest text-[#b4402a] bg-[#b4402a]/10 px-3 py-1 rounded-full">
+                Behind the Deck
+            </span>
+        </div>
+
+        <!-- 1. THE DIRECTORS -->
+        <div class="mb-10 relative z-20">
+            <div class="flex flex-wrap justify-center gap-x-8 gap-y-8 max-w-3xl mx-auto items-start">
+                
+                <!-- Director 1 -->
+                <div class="flex flex-col items-center text-center group w-[150px]">
+                    <div class="w-24 h-24 rounded-full bg-brand-surface border-2 border-[#3a4985]/30 group-hover:border-[#3a4985] transition-all shadow-md overflow-hidden mb-3">
+                        <img src="./images/hr-hazel.jpg" alt="Hazel" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-gray-900 text-base leading-tight">Hazel Goetsch</h4>
+                    <p class="text-xs text-[#b4402a] font-medium mt-1">Director</p>
+                </div>
+
+                <!-- Director 2 -->
+                <div class="flex flex-col items-center text-center group w-[150px]">
+                    <div class="w-24 h-24 rounded-full bg-brand-surface border-2 border-[#3a4985]/30 group-hover:border-[#3a4985] transition-all shadow-md overflow-hidden mb-3">
+                        <img src="./images/hr-jacob.jpg" alt="Jacob" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-gray-900 text-base leading-tight">Jacob King</h4>
+                    <p class="text-xs text-[#b4402a] font-medium mt-1">Director</p>
+                </div>
+
+                <!-- Director 3 -->
+                <div class="flex flex-col items-center text-center group w-[150px]">
+                    <div class="w-24 h-24 rounded-full bg-brand-surface border-2 border-[#3a4985]/30 group-hover:border-[#3a4985] transition-all shadow-md overflow-hidden mb-3">
+                        <img src="./images/hr-varshini.jpg" alt="Varshini" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-gray-900 text-base leading-tight">Varshini Loganathan</h4>
+                    <p class="text-xs text-[#b4402a] font-medium mt-1">Director</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 2. SUBCOMMITTEES (12 Smaller Photo Icons) -->
+        <div class="max-w-4xl mx-auto relative z-20">
+            
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-y-5 gap-x-6 justify-items-center">
+                
+                <div class="flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 rounded-full bg-brand-surface border border-gray-200 group-hover:border-[#3a4985] transition shadow-sm overflow-hidden mb-2">
+                        <img src="./images/hr-milan.jpg" alt="Milan" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="font-bold text-gray-800 text-xs">Milan Cohen Camarena</h5>
+                    <p class="text-[10px] text-gray-500 font-medium">Public Relations</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 rounded-full bg-brand-surface border border-gray-200 group-hover:border-[#3a4985] transition shadow-sm overflow-hidden mb-2">
+                        <img src="./images/hr-abena.jpg" alt="Abena" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="font-bold text-gray-800 text-xs">Abena Poku</h5>
+                    <p class="text-[10px] text-gray-500 font-medium">Logistics</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 rounded-full bg-brand-surface border border-gray-200 group-hover:border-[#3a4985] transition shadow-sm overflow-hidden mb-2">
+                        <img src="./images/hr-saanvi.jpg" alt="Saanvi" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="font-bold text-gray-800 text-xs">Saanvi Mukkara</h5>
+                    <p class="text-[10px] text-gray-500 font-medium">Logistics</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 rounded-full bg-brand-surface border border-gray-200 group-hover:border-[#3a4985] transition shadow-sm overflow-hidden mb-2">
+                        <img src="./images/hr-henry.jpg" alt="Henry" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="font-bold text-gray-800 text-xs">Henry Shan</h5>
+                    <p class="text-[10px] text-gray-500 font-medium">Tracks & Workshops</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 rounded-full bg-brand-surface border border-gray-200 group-hover:border-[#3a4985] transition shadow-sm overflow-hidden mb-2">
+                        <img src="./images/hr-oscar.jpg" alt="Oscar" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="font-bold text-gray-800 text-xs">Oscar Pan</h5>
+                    <p class="text-[10px] text-gray-500 font-medium">Tracks & Workshops</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 rounded-full bg-brand-surface border border-gray-200 group-hover:border-[#3a4985] transition shadow-sm overflow-hidden mb-2">
+                        <img src="./images/hr-sophia.jpg" alt="Sophia" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="font-bold text-gray-800 text-xs">Sophia Chen</h5>
+                    <p class="text-[10px] text-gray-500 font-medium">Tracks & Workshops</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 rounded-full bg-brand-surface border border-gray-200 group-hover:border-[#3a4985] transition shadow-sm overflow-hidden mb-2">
+                        <img src="./images/hr-grace.jpg" alt="Grace" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="font-bold text-gray-800 text-xs">Grace Yuan</h5>
+                    <p class="text-[10px] text-gray-500 font-medium">Industry Outreach</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 rounded-full bg-brand-surface border border-gray-200 group-hover:border-[#3a4985] transition shadow-sm overflow-hidden mb-2">
+                        <img src="./images/hr-lana.jpg" alt="Lana" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="font-bold text-gray-800 text-xs">Lana Yepifanova</h5>
+                    <p class="text-[10px] text-gray-500 font-medium">Industry Outreach</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 rounded-full bg-brand-surface border border-gray-200 group-hover:border-[#3a4985] transition shadow-sm overflow-hidden mb-2">
+                        <img src="./images/hr-jacqueline.jpg" alt="Jacqueline" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="font-bold text-gray-800 text-xs">Jacqueline Chung</h5>
+                    <p class="text-[10px] text-gray-500 font-medium">Industry Outreach</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 rounded-full bg-brand-surface border border-gray-200 group-hover:border-[#3a4985] transition shadow-sm overflow-hidden mb-2">
+                        <img src="./images/hr-sanjana.jpg" alt="Sanjana" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="font-bold text-gray-800 text-xs">Sanjana Dabbiru</h5>
+                    <p class="text-[10px] text-gray-500 font-medium">Design Team</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 rounded-full bg-brand-surface border border-gray-200 group-hover:border-[#3a4985] transition shadow-sm overflow-hidden mb-2">
+                        <img src="./images/hr-tony.jpg" alt="Tony" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="font-bold text-gray-800 text-xs">Tony Martinez</h5>
+                    <p class="text-[10px] text-gray-500 font-medium">Design Team</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 rounded-full bg-brand-surface border border-gray-200 group-hover:border-[#3a4985] transition shadow-sm overflow-hidden mb-2">
+                        <img src="./images/hr-steve.jpg" alt="Steve" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="font-bold text-gray-800 text-xs">Steve Zhang</h5>
+                    <p class="text-[10px] text-gray-500 font-medium">Design Team</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== -->
+    <!-- FOOTER -->
+    <!-- ==================== -->
+    <footer class="py-12 border-t border-gray-200 text-center text-sm text-gray-400">
+        <p>&copy; 2026 HackRice. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+<script>
+    // Set the countdown target date (September 11, 2026 at midnight)
+    const targetDate = new Date("September 11, 2026 00:00:00").getTime();
+
+    // Update the countdown every single second
+    const countdownInterval = setInterval(function() {
+        // Get the current date and time
+        const now = new Date().getTime();
+        
+        // Find the distance between now and the target date
+        const distance = targetDate - now;
+        
+        // Time calculations for days, hours, minutes, and seconds
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+        // Display the results in the elements with matching IDs
+        // .padStart(2, '0') keeps them looking neat as double digits (e.g., '05' instead of '5')
+        document.getElementById("days").innerText = String(days).padStart(2, '0');
+        document.getElementById("hours").innerText = String(hours).padStart(2, '0');
+        document.getElementById("mins").innerText = String(minutes).padStart(2, '0');
+        document.getElementById("secs").innerText = String(seconds).padStart(2, '0');
+        
+        // If the countdown is finished, display zeros and stop the timer
+        if (distance < 0) {
+            clearInterval(countdownInterval);
+            document.getElementById("days").innerText = "00";
+            document.getElementById("hours").innerText = "00";
+            document.getElementById("mins").innerText = "00";
+            document.getElementById("secs").innerText = "00";
+        }
+    }, 1000);
+</script>
