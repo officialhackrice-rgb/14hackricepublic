@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useState, useEffect, useMemo } from 'react';
 import './index.css';
 import NORDsponsor1 from './NORD_NordPass_logo.png';
