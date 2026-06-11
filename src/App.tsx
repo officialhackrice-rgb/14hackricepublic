@@ -45,11 +45,11 @@ export default function App(){
   const faqData: FAQItem[] = [
     {
       question: "How long is HackRice?",
-      answer: "The event is held from Friday, September 19th to Sunday, September 22th. Students hack for 36 hours!"
+      answer: "The event is held from Friday, September 11th to Sunday, September 13th. Students hack for 36 hours!"
     },
     {
       question: "How many hackers attend HackRice? Where are they from?",
-      answer: "We expect around 400 hackers from not just Rice, but schools all over the world!"
+      answer: "We expect around 800 hackers from not just Rice, but schools all over the world!"
     },
     {
       question: "How many hackers per team are permitted?",
